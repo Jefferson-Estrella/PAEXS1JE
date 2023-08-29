@@ -20,7 +20,9 @@ namespace PAEXS1JE
             txtApellido.Text = apellido;
             txtSalario.Text = salario;
             txtdireccion.Text = direccion;
-            //comentarios
+            //comentarios Jefferson 
+            //Hola 
+            //Hola
 
 
         }
