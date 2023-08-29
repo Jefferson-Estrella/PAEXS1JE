@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAEXS1JE.MainPage">
+
+    
+    <StackLayout>
+        <Label x:Name="lblusuario" HorizontalTextAlignment="End" FontSize="14" TextColor="Blue"></Label>
+        <Label Text="Semana 1 PAEX" TextColor="Red" FontSize="18" HorizontalTextAlignment="Center"></Label>
+        <Label Text="SISTEMAS DE INFORMACIÓN" FontSize="14"/>
+        <!--COMENTARIOS-->
+        <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
+        <Entry x:Name="txtApellido" Placeholder="Ingrese su apellido"/>
+        <Entry x:Name="txtEdad" Placeholder="Ingrese su edad"/>
+        <Entry x:Name="txtSalario" Placeholder="Ingrese su salario" Keyboard="Numeric"/>
+        <Entry x:Name="txtDireccion" Placeholder="Ingrese su direccion"/>
+
+        <Button x:Name="btnIniciar" Text="Enviar Datos" Clicked="btnIniciar_Clicked"/>
+        <Button x:Name="btnCalcular" Text="Calcular Edad" Clicked="btnCalcular_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
